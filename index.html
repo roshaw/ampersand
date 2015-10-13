@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TickTacToe</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container container-table">
+        <div class="row vertical-center-row text-center">
+            <form name="player-name" class="form-inline">
+                <div class="form-group">
+                    <label for="name">First player name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Jane Doe">
+                </div>
+                <button type="submit" class="btn btn-primary">Send invitation</button>
+            </form>
+            <div class="tictac-holder">
+                <div class="row text-center">
+                    <div class="text-center tictac pull-left" type="text" name="arr-0-0" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-0-1" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-0-2" ></div>
+                </div>
+                <div class="row text-center">
+                    <div class="text-center tictac pull-left" type="text" name="arr-1-0" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-1-1" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-1-2" ></div>
+                </div>
+                <div class="row text-center">
+                    <div class="text-center tictac pull-left" type="text" name="arr-2-0" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-2-1" ></div>
+                    <div class="text-center tictac pull-left" type="text" name="arr-2-2" ></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
